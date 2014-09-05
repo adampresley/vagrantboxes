@@ -10,3 +10,7 @@ This repository is home to my Vagrant configurations.
 
 ## ColdFusion
 * **railo** - Tomcat 7, Railo, MySQL 5
+
+
+## Python
+* **python2-mysql** - Python 2, MySQL 5, Unit Testing, SqlAlchemy
