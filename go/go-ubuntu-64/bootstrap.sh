@@ -29,4 +29,4 @@ mkdir /home/vagrant/go/pkg
 
 ln -sf /vagrant /home/vagrant/go/src/$ROOTPATH/$PROJECTNAME
 
-echo 'export GOPATH=/home/vagrant/go'
+echo 'export GOPATH=/home/vagrant/go' >> /home/vagrant/.profile
