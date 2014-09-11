@@ -11,6 +11,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 #
 # Install dependencies
 #
+apt-get update
 apt-get --no-install-recommends install -y default-jdk tomcat7 unzip mysql-server mysql-client
 
 #
