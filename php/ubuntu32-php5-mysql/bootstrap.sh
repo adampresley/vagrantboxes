@@ -12,7 +12,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 # Install dependencies
 #
 apt-get update
-apt-get --no-install-recommends install -y apache2 php5 libapache2-mod-php5 mysql-server mysql-client libmysqlclient-dev php5-mysql
+apt-get --no-install-recommends install -y apache2 php5 libapache2-mod-php5 mysql-server mysql-client libmysqlclient-dev php5-mysql php5-curl
 
 #
 # Make Apache run as vagrant user
